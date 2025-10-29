@@ -1,0 +1,30 @@
+name: mad_cep
+description: MAD-CEP Medicine Reminder (Hive edition)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  intl: ^0.18.1
+  flutter_local_notifications: ^17.2.1+2
+  timezone: ^0.9.1
+  fl_chart: ^0.68.0
+  path_provider: ^2.0.14
+  csv: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
